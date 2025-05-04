@@ -1,0 +1,16 @@
+name: pilothub
+description: A cross-platform app for pilots
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  uuid: ^4.2.2
+  file_picker: ^6.1.1
+
+flutter:
+  uses-material-design: true
